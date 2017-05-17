@@ -1,0 +1,4 @@
+services:
+  plugin.manager.drupalzoo:
+    class: Drupal\drupalzoo\DrupalZooManager
+    parent: default_plugin_manager

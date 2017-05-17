@@ -1,0 +1,7 @@
+chad_page:
+  path: '/zoo'
+  defaults:
+    _controller: 'Drupal\drupalzoo\Controller\ZooController::zoo'
+    _title: 'Drupal Zoo cats'
+  requirements:
+    _permission: 'view content'
